@@ -1,0 +1,7 @@
+{
+  "domain": "example.com",
+  "company": "Company Name",
+  "product": "Product Name",
+  "timezone": "America/Chicago",
+  "codaApiToken": "XXX-XXX-XXXXXX-XXX"
+}

@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "Example Cloudflare Worker for Creating iCal files from Coda Tables.",
+  "main": "index.js",
+  "scripts": {
+    "start": "wrangler preview --watch --verbose --url http://example.com/DOCUMENT_ID/TABLE_NAME",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Jason Shore <jason@sardius.media>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "ical-generator": "next",
+    "moment": "^2.28.0"
+  },
+  "browser": { "fs": false, "path": false, "os": false}
+}
